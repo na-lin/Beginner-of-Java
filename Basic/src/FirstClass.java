@@ -16,7 +16,7 @@ public class FirstClass {
         double v1 = 20.00;
         double v2 = 80.00;
         System.out.println(v1);
-        boolean b1 = v1 == 20.00 ? true: false;
+        boolean b1 = v1 == v2 ? true: false;
         System.out.println("b1:"+ b1);
     }
 }
